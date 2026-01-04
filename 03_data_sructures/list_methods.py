@@ -1,0 +1,12 @@
+numbers = [2,5,7,9,7,4]
+numbers.append(10)
+numbers.insert(0,20)
+numbers.remove(5)
+print(numbers)
+print(7 in numbers)
+print(numbers.count(7))
+print(numbers.pop())
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
